@@ -15,7 +15,7 @@ def open_connection():
 
 
 @app.teardown_appcontext
-def colse_connection(expection):
+def close_connection(expection):
     connection = getattr(g, "_connection", None)
     if connection is not None:
         connection.close()
