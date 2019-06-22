@@ -23,7 +23,7 @@ def colse_connection(expection):
 
 def execute_sql(sql, values=(), commit=False, single=False):
     connection = open_connection()
-    cursor = connection.execute_sql(sql, values)
+    cursor = connection.execute(sql, values)
     if commit:
         results = connection.commit()
     else:
