@@ -1,4 +1,6 @@
 # Build a Job Board with Python & Flask
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmmismail109%2FPythonFlask-JobBoard.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmmismail109%2FPythonFlask-JobBoard?ref=badge_shield)
+
 
 ## Verify Local Environment
 
@@ -47,3 +49,7 @@ Every time you want to check your work locally you can type that command, and it
 ### Previewing Your Work
 
 You can preview your work by running `flask run` in the root of your fork and then visit`http://localhost:5000` in your browser.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmmismail109%2FPythonFlask-JobBoard.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmmismail109%2FPythonFlask-JobBoard?ref=badge_large)
